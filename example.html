@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" name="viewport"
+content="width=device-width, iniitial-scale=1"/>
+</head>
+
+<body>
+<nav class="navbar navbar-default"></nav>
+<div class="col-md-3"></div>
+<div class="col-md-6 well">
+
+<h3>HItung Luas Ubin</h3>
+<hr style="border-top:1px dotted #ccc;" />
+
+<form>
+
+    <div class="form-inline">
+    <label>Lebar ubin:</label>
+    <input type="text" class="form-control"
+    id="L" size="10" >
+    <label>cm</label>
+    </div>
+
+    <div class="form-inline">
+    <label>panjang ubin: </label>
+    <input type="text" class="form-control" 
+    id="P" size="10">
+    <label>cm</label>
+    </div>
+
+            <button class="btn btn-primary" type="button"
+            onClick="hitungLuas()">Hitung luas</button>
+
+            <button class="btn btn-success"
+            type="reset">Reset</button
+
+    <div class="form-inline">
+    <label>Luas:</label>
+    <input class="form-control" type="text"
+    id="luas" size="10">
+    <label>cm <sup>2</sup> </label>
+    </div>
+
+            <br />
+            <div class="form-inline">
+            <label>Keterangan:</label>
+            <input class="form-control" type="text"
+            id="result" size="25">
+            </div>
+            <br />
+
+</form>
+<script src="ubin.js"></script>
+</body>
+</html>
